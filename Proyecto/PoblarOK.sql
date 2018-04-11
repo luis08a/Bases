@@ -1,109 +1,6 @@
 /*Poblar OK*/
 
-/*---Poblado de departamentos
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (1,'Seguridad','Phasellus vitae mauris sit amet');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (2,'Seguridad','Sed eu nibh');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (3,'Atención Usuarios','nibh vulputate');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (4,'Pagos','commodo auctor velit. Aliquam nisl. Nulla');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (5,'Logistica','lacus pede sagittis augue, eu tempor');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (6,'Seguridad','leo elementum sem, vitae aliquam eros turpis non enim.');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (7,'Pagos','venenatis lacus. Etiam');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (8,'Logistica','adipiscing. Mauris molestie pharetra nibh. Aliquam ornare, libero at');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (9,'Atención Usuarios','primis in faucibus orci luctus');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (10,'Aseo','sapien. Cras dolor dolor, tempus non,');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (11,'Logistica','ullamcorper. Duis cursus, diam at');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (12,'Aseo','vel turpis. Aliquam adipiscing lobortis risus. In mi pede,');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (13,'Logistica','velit in aliquet lobortis,');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (14,'Atención Usuarios','dui nec urna suscipit nonummy. Fusce fermentum');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (15,'Seguridad','lacus. Ut nec urna');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (16,'Seguridad','eu tellus. Phasellus elit');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (17,'Aseo','et nunc. Quisque ornare tortor at risus.');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (18,'Logistica','ac turpis');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (19,'Logistica','gravida mauris ut mi. Duis risus odio, auctor vitae, aliquet');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (20,'Logistica','auctor odio a purus.');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (21,'Atención Usuarios','fringilla euismod enim.');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (22,'Atención Usuarios','ac turpis');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (23,'Seguridad','ac facilisis facilisis, magna tellus faucibus');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (24,'Logistica','montes, nascetur ridiculus mus. Proin vel nisl. Quisque fringilla');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (25,'Aseo','dui, semper et, lacinia vitae, sodales at,');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (26,'Logistica','Suspendisse dui. Fusce diam nunc, ullamcorper');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (27,'Pagos','ac');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (28,'Aseo','ut lacus. Nulla tincidunt, neque vitae');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (29,'Logistica','In condimentum.');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (30,'Pagos','sit amet risus. Donec egestas. Aliquam nec');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (31,'Logistica','iaculis enim, sit amet ornare lectus justo eu');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (32,'Atención Usuarios','a, arcu. Sed et libero. Proin mi. Aliquam gravida mauris');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (33,'Pagos','dui');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (34,'Aseo','Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (35,'Aseo','rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (36,'Atención Usuarios','feugiat tellus lorem eu metus.');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (37,'Aseo','risus quis diam luctus lobortis.');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (38,'Seguridad','dictum cursus. Nunc mauris elit, dictum');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (39,'Pagos','neque venenatis lacus. Etiam bibendum fermentum metus. Aenean');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (40,'Logistica','sapien. Nunc pulvinar arcu');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (41,'Atención Usuarios','In at pede. Cras vulputate velit eu sem. Pellentesque ut');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (42,'Aseo','in faucibus orci luctus et');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (43,'Atención Usuarios','augue id ante dictum cursus. Nunc mauris elit, dictum');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (44,'Seguridad','laoreet, libero');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (45,'Atención Usuarios','vitae, sodales at, velit. Pellentesque ultricies dignissim lacus. Aliquam');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (46,'Pagos','est, vitae sodales nisi magna');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (47,'Atención Usuarios','facilisis, magna tellus faucibus leo, in lobortis');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (48,'Pagos','quam a felis ullamcorper viverra. Maecenas iaculis aliquet diam.');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (49,'Logistica','Morbi');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (50,'Atención Usuarios','lacinia mattis. Integer eu lacus. Quisque imperdiet,');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (51,'Seguridad','luctus.');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (52,'Aseo','porttitor tellus non magna. Nam ligula elit,');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (53,'Pagos','eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur egestas');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (54,'Pagos','euismod');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (55,'Logistica','amet, faucibus ut, nulla. Cras eu tellus eu');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (56,'Logistica','ornare. Fusce mollis. Duis sit amet diam eu');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (57,'Seguridad','Aliquam erat volutpat. Nulla dignissim. Maecenas ornare egestas');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (58,'Atención Usuarios','ultricies ligula. Nullam enim. Sed nulla ante,');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (59,'Logistica','Nulla tincidunt, neque vitae semper egestas, urna justo faucibus lectus,');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (60,'Atención Usuarios','eu enim. Etiam');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (61,'Pagos','natoque penatibus et magnis dis parturient');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (62,'Pagos','purus, accumsan');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (63,'Pagos','ipsum');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (64,'Seguridad','augue. Sed molestie. Sed id risus');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (65,'Atención Usuarios','aliquet magna a neque. Nullam ut nisi a odio');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (66,'Seguridad','pede, ultrices a, auctor non, feugiat nec,');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (67,'Logistica','dapibus');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (68,'Logistica','non, luctus sit amet, faucibus ut, nulla. Cras eu tellus');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (69,'Atención Usuarios','augue. Sed molestie. Sed id risus quis diam luctus');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (70,'Pagos','tincidunt. Donec vitae erat vel pede blandit congue.');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (71,'Logistica','et ultrices posuere cubilia Curae; Donec');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (72,'Logistica','arcu. Nunc');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (73,'Atención Usuarios','posuere');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (74,'Aseo','Nam consequat');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (75,'Pagos','nulla. Integer urna. Vivamus');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (76,'Seguridad','neque. Nullam ut nisi');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (77,'Logistica','vestibulum, neque sed dictum eleifend, nunc risus');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (78,'Atención Usuarios','Nunc ac sem');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (79,'Pagos','Nullam scelerisque');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (80,'Seguridad','vitae, sodales at,');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (81,'Logistica','Ut');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (82,'Atención Usuarios','pede, malesuada');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (83,'Logistica','dui augue eu tellus. Phasellus elit pede,');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (84,'Pagos','nibh. Phasellus nulla. Integer vulputate, risus a ultricies adipiscing, enim');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (85,'Seguridad','tellus eu augue porttitor interdum.');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (86,'Seguridad','placerat. Cras dictum ultricies ligula. Nullam');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (87,'Pagos','dictum augue malesuada malesuada. Integer id magna et ipsum cursus');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (88,'Seguridad','elit, pharetra ut, pharetra sed, hendrerit');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (89,'Pagos','porta elit, a feugiat tellus lorem eu metus. In');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (90,'Pagos','congue.');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (91,'Atención Usuarios','consequat');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (92,'Atención Usuarios','Maecenas libero est, congue a,');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (93,'Logistica','nunc sit');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (94,'Atención Usuarios','sagittis. Duis gravida.');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (95,'Seguridad','quam a felis ullamcorper viverra. Maecenas iaculis aliquet');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (96,'Logistica','risus. Donec egestas. Duis ac');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (97,'Seguridad','euismod urna. Nullam lobortis quam a felis ullamcorper viverra.');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (98,'Seguridad','Morbi vehicula. Pellentesque tincidunt tempus risus. Donec');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (99,'Atención Usuarios','massa. Mauris vestibulum, neque sed');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (100,'Atención Usuarios','lacus. Mauris non dui nec urna suscipit nonummy.');
-
-
-
+/*
 ---Poblado de propietarios
 INSERT INTO Propietarios (correo,nombre,telefonoDeContacto,fechaDeAsociacion) VALUES ('sit.amet@montes.edu','Ishmael Dean','16991006 5607','2017-05-13 05:35:22');
 INSERT INTO Propietarios (correo,nombre,telefonoDeContacto,fechaDeAsociacion) VALUES ('vitae@inconsequat.co.uk','Steel Rogers','16340110 6327','2019-03-06 11:00:28');
@@ -206,6 +103,116 @@ INSERT INTO Propietarios (correo,nombre,telefonoDeContacto,fechaDeAsociacion) VA
 INSERT INTO Propietarios (correo,nombre,telefonoDeContacto,fechaDeAsociacion) VALUES ('montes@vitae.com','Phyllis Lott','16620123 8018','2018-11-26 05:32:47');
 INSERT INTO Propietarios (correo,nombre,telefonoDeContacto,fechaDeAsociacion) VALUES ('dapibus@parturient.com','Candace Hale','16750826 6298',TO_DATE('YYYY-MM-DD','2019-04-10'));
 */
+
+---Poblar Departamentos
+INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (1,'Seguridad','Sed eu nibh');
+INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (2,'Atención Usuarios','nibh vulputate');
+INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (3,'Pagos','commodo auctor velit. Aliquam nisl. Nulla');
+INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (4,'Logistica','lacus pede sagittis augue, eu tempor');
+INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (5,'Aseo','sapien. Cras dolor dolor, tempus non,');
+INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (6,'Restauración','lacus. Mauris non dui nec urna suscipit nonummy.');
+
+--- Poblar Empleados 
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (1, 'Darbee', 'Stables', 3914989, 'administrador', 6);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (2, 'Trev', 'Seyfart', 1768259, 'guia', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (3, 'Rennie', 'Chaffe', null, 'gerente', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (4, 'Marta', 'Byard', null, 'limpieza', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (5, 'Janetta', 'Ipsley', 5816998, 'Experto en artefactos', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (6, 'Curr', 'Scini', null, 'gerente', 1);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (7, 'Ellynn', 'Bosche', null, 'gerente', 6);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (8, 'Hobie', 'Hamel', 2051372, 'administrador', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (9, 'Tommie', 'Ratter', 2684938, 'guia', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (10, 'Vladimir', 'Shelford', null, 'administrador', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (11, 'Mortimer', 'Nisby', 7907886, 'Experto en artefactos', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (12, 'Reiko', 'Colegrove', 2241095, 'guardia', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (13, 'Leann', 'Siemandl', 9883852, 'guardia', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (14, 'Rici', 'Borrow', 7303579, 'guardia', 6);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (15, 'Hugh', 'Nockolds', 1577163, 'guia', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (16, 'Helen-elizabeth', 'Woodroff', 9902160, 'gerente', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (17, 'Greg', 'Mesnard', null, 'administrador', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (18, 'Sari', 'Geraud', null, 'administrador', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (19, 'Adrianna', 'Wyllis', 4126314, 'guardia', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (20, 'Ailsun', 'Menham', 4266990, 'limpieza', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (21, 'Ardis', 'Canadas', null, 'Experto en artefactos', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (22, 'Calhoun', 'Trevan', 3666186, 'Experto en artefactos', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (23, 'Joya', 'Hyndley', 1192443, 'guia', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (24, 'Egor', 'Bretton', 8629231, 'guia', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (25, 'Sigvard', 'Freddi', null, 'guia', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (26, 'Urbain', 'Bohike', 8022703, 'Experto en artefactos', 1);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (27, 'Marina', 'Wortley', null, 'guardia', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (28, 'Mirilla', 'Chatteris', null, 'guardia', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (29, 'Zuzana', 'Tennant', 8612548, 'guia', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (30, 'Torrance', 'Mucillo', 6372811, 'limpieza', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (31, 'Electra', 'Norsworthy', 6578684, 'guia', 1);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (32, 'Sanders', 'Cregin', 6016296, 'guardia', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (33, 'West', 'Hearns', 8548601, 'Experto en artefactos', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (34, 'Ealasaid', 'Nend', 4523425, 'gerente', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (35, 'Tiler', 'Servant', 7495205, 'guardia', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (36, 'Morty', 'Gibbens', null, 'Experto en artefactos', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (37, 'Rozanna', 'Meale', 1048977, 'administrador', 1);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (38, 'Tate', 'Alfwy', 9600830, 'guia', 6);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (39, 'Constancy', 'Coogan', 1626852, 'limpieza', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (40, 'Kordula', 'Varley', 9633856, 'gerente', 6);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (41, 'Phaedra', 'Phillp', 8726259, 'guia', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (42, 'Idell', 'Fordham', 5690333, 'Experto en artefactos', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (43, 'Carlie', 'Wigmore', 4714976, 'guardia', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (44, 'Anson', 'Hayler', null, 'Experto en artefactos', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (45, 'Marabel', 'Roofe', 8628156, 'gerente', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (46, 'Jamill', 'Hoggan', null, 'administrador', 6);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (47, 'Elmer', 'Yewman', 3368454, 'limpieza', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (48, 'Tatum', 'Gotmann', 5834488, 'limpieza', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (49, 'Dulcinea', 'Barke', 8625239, 'Experto en artefactos', 1);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (50, 'Ailis', 'McLarty', 4373234, 'administrador', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (51, 'Ferrell', 'Beever', 3188309, 'guardia', 6);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (52, 'Julianna', 'Cabell', 6266249, 'limpieza', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (53, 'Margette', 'Weinmann', 8649008, 'administrador', 6);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (54, 'Ellissa', 'Bush', null, 'guia', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (55, 'Gideon', 'Jentzsch', 2064568, 'limpieza', 1);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (56, 'Adena', 'Kubicek', 4580561, 'Experto en artefactos', 6);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (57, 'Tracy', 'Teggin', 3296850, 'limpieza', 6);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (58, 'Torey', 'Lockyer', 6569067, 'guardia', 1);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (59, 'Amalia', 'Giovannacci', 7518783, 'Experto en artefactos', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (60, 'Ashlan', 'Larver', 1008586, 'limpieza', 6);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (61, 'Banky', 'Carabine', null, 'guardia', 6);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (62, 'Lindi', 'Roos', 4547531, 'guia', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (63, 'Conny', 'Wrankling', 9409926, 'administrador', 1);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (64, 'Alexandrina', 'McKean', null, 'guia', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (65, 'Sherm', 'Brignall', 2873157, 'gerente', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (66, 'Lorne', 'Biaggetti', 9465517, 'gerente', 1);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (67, 'Damiano', 'Kivell', 5570039, 'guia', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (68, 'Nikita', 'Allwright', 3733230, 'limpieza', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (69, 'Malinda', 'Layhe', 1041263, 'gerente', 1);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (70, 'Starr', 'Ecclestone', 5785334, 'Experto en artefactos', 1);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (71, 'Shirlee', 'Jumont', 6701983, 'Experto en artefactos', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (72, 'Anne', 'Sterry', 5254119, 'guia', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (73, 'Carmel', 'Westwater', 7092575, 'gerente', 6);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (74, 'Flossy', 'Chandler', 7509742, 'guardia', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (75, 'Barbie', 'McCaster', 5452154, 'guia', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (76, 'Letti', 'Shimwall', 2246611, 'guardia', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (77, 'Jamie', 'Nigh', 4095473, 'Experto en artefactos', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (78, 'Gregorius', 'Dungay', 5967427, 'guardia', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (79, 'Corey', 'Blaes', null, 'guia', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (80, 'Clemens', 'Mizzi', 5985154, 'administrador', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (81, 'Gualterio', 'Grishinov', 7686010, 'Experto en artefactos', 2);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (82, 'Lyndsey', 'Kroin', 4003736, 'guardia', 6);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (83, 'Eric', 'Rainford', 1882688, 'gerente', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (84, 'Kliment', 'Costy', null, 'Experto en artefactos', 6);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (85, 'Dollie', 'Syncke', null, 'guardia', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (86, 'Ange', 'Grayston', 3175817, 'guardia', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (87, 'Jeniece', 'Yakobovitz', 2852746, 'limpieza', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (88, 'Oona', 'Mayers', 2263608, 'guardia', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (89, 'Jesse', 'Brass', 5995553, 'administrador', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (90, 'Arne', 'Peasnone', 5831399, 'guia', 1);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (91, 'Zarah', 'Ochiltree', 7991211, 'guardia', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (92, 'Ruthy', 'Lince', null, 'Experto en artefactos', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (93, 'Jone', 'Lemin', 4519264, 'Experto en artefactos', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (94, 'Carissa', 'Newey', 6094962, 'limpieza', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (95, 'Belia', 'Loch', 7265271, 'administrador', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (96, 'Ninette', 'Oglesbee', 6074463, 'administrador', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (97, 'Mikael', 'McTerry', 6671699, 'gerente', 5);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (98, 'Kittie', 'Bridal', 8814893, 'Experto en artefactos', 4);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (99, 'Mano', 'Cato', 1868666, 'guia', 3);
+insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (100, 'Lory', 'Glasgow', 8322645, 'limpieza', 3);
 
 
 
@@ -310,3 +317,11 @@ INSERT INTO Salas (ID,areaDisponible,altura) VALUES (97,311,2);
 INSERT INTO Salas (ID,areaDisponible,altura) VALUES (98,587,1);
 INSERT INTO Salas (ID,areaDisponible,altura) VALUES (99,957,4);
 
+------- Poblar Planes --------
+insert into Planes (nombre,descripcion, valor, prioridad) values ('General','Ingreso ilimitado al museo y sus exposiciones (exceptuando las especiales)',80000,1);
+insert into Planes (nombre,descripcion, valor, prioridad) values ('Plata','Ingreso ilimitado. Descuento en exposiciones expeciales y la tienda del museo',100000,2);
+insert into Planes (nombre,descripcion, valor, prioridad) values ('Oro','Ingreso total al museo.Descuentos en la tienda y restaurante del museo. Ivitaciones a exposiciones especiales antes de que salgan',120000,3);
+
+
+
+------- Poblar Clientes--------

@@ -38,16 +38,3 @@ alter table pagos add constraint pk_pagos primary key(numeroDeSerie);
 alter table clientes add constraint pk_clientes primary key(tipoDeDocumento, numeroDeDocumento);
 
 alter table planes add constraint pk_planes primary key(nombre);
-
-
-
-
-
-
-
-
-
-
-
-
-

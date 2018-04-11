@@ -1,6 +1,6 @@
 /*Creación de tablas*/
 create table departamentos ( ID number(3), nombre varchar(20) not null, descripcion varchar(200) not null);
-create table empleados ( ID number(5), nombres varchar(15) not null, apellidos varchar(30) not null, telefono number(10), cargo varchar(15) not null, departamento number(3) not null);
+create table empleados ( ID number(5), nombres varchar(55) not null, apellidos varchar(30) not null, telefono number(10), cargo varchar(25) not null, departamento number(3) not null);
 create table empleadostrabajanensalas ( empleado number(5), sala number(2));
 create table salas ( ID number(2), areaDisponible number(3) not null, altura number(2) not null);
 create table colecciones ( ID number(2), nombre varchar(35) not null, descripcion varchar(150) not null, sala number(2), evento number(5));
