@@ -1,6 +1,6 @@
 /*Poblar OK*/
 
----Poblado de departamentos
+/*---Poblado de departamentos
 INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (1,'Seguridad','Phasellus vitae mauris sit amet');
 INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (2,'Seguridad','Sed eu nibh');
 INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (3,'Atención Usuarios','nibh vulputate');
@@ -205,3 +205,108 @@ INSERT INTO Propietarios (correo,nombre,telefonoDeContacto,fechaDeAsociacion) VA
 INSERT INTO Propietarios (correo,nombre,telefonoDeContacto,fechaDeAsociacion) VALUES ('vel@augue.com','Zenia Cote','16080214 2802','2018-06-29 03:03:13');
 INSERT INTO Propietarios (correo,nombre,telefonoDeContacto,fechaDeAsociacion) VALUES ('montes@vitae.com','Phyllis Lott','16620123 8018','2018-11-26 05:32:47');
 INSERT INTO Propietarios (correo,nombre,telefonoDeContacto,fechaDeAsociacion) VALUES ('dapibus@parturient.com','Candace Hale','16750826 6298',TO_DATE('YYYY-MM-DD','2019-04-10'));
+*/
+
+
+
+--- Poblar Salas
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (1,862,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (2,493,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (3,125,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (4,511,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (5,147,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (6,615,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (7,828,4);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (8,281,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (9,878,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (10,139,4);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (11,339,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (12,656,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (13,655,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (14,601,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (15,820,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (16,126,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (17,41,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (18,338,4);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (19,698,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (20,635,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (21,647,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (22,560,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (23,155,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (24,491,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (25,681,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (26,72,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (27,316,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (28,730,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (29,436,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (30,284,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (31,786,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (32,94,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (33,395,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (34,562,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (35,151,4);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (36,91,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (37,517,4);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (38,518,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (39,603,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (40,674,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (41,995,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (42,191,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (43,172,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (44,316,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (45,173,4);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (46,500,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (47,457,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (48,152,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (49,617,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (50,421,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (51,591,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (52,274,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (53,146,4);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (54,310,4);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (55,254,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (56,678,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (57,126,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (58,226,4);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (59,791,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (60,573,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (61,146,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (62,149,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (63,619,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (64,546,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (65,527,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (66,147,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (67,133,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (68,256,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (69,998,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (70,756,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (71,850,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (72,712,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (73,446,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (74,571,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (75,833,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (76,437,4);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (77,817,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (78,441,4);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (79,174,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (80,952,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (81,569,4);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (82,399,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (83,704,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (84,279,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (85,262,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (86,665,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (87,938,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (88,334,5);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (89,760,4);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (90,144,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (91,324,3);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (92,35,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (93,422,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (94,119,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (95,987,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (96,412,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (97,311,2);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (98,587,1);
+INSERT INTO Salas (ID,areaDisponible,altura) VALUES (99,957,4);
+
