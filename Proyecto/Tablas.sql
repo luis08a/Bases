@@ -1,4 +1,4 @@
-/*Creación de tablas*/
+/*CreaciÃ³n de tablas*/
 create table departamentos ( ID number(3), nombre varchar(20) not null, descripcion varchar(200) not null);
 create table empleados ( ID number(5), nombres varchar(55) not null, apellidos varchar(30) not null, telefono number(10), cargo varchar(25) not null, departamento number(3) not null);
 create table empleadostrabajanensalas ( empleado number(5), sala number(2));
@@ -18,4 +18,4 @@ create table suscripcionpermiteasistira ( carneSuscripcion varchar(20), evento n
 create table suscripciones ( carne varchar(20), documentoCliente varchar(20) not null, tipoDocumentoCliente varchar(3) not null, plan varchar(20) not null, estadoDeCuenta number(1) not null);
 create table pagos ( numeroDeSerie number(9), carneSuscripcion varchar(20) not null, fechaDePago date not null, valor number(8) not null);
 create table clientes ( tipoDeDocumento varchar(3), numeroDeDocumento varchar(20), correo varchar(50) not null, fechaDeVinculacion date not null);
-create table planes ( nombre varchar(20), descripcion varchar(200) not null, valor number(8) not null, prioridad number(1) not null);
+create table planes ( nombre varchar(20), descripcion varchar(200) not null, valor number(8) not null );
