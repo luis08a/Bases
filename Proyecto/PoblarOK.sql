@@ -106,11 +106,11 @@ INSERT INTO Propietarios (correo,nombre,telefonoDeContacto,fechaDeAsociacion) VA
 
 ---Poblar Departamentos
 INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (1,'Seguridad','Sed eu nibh');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (2,'Atención Usuarios','nibh vulputate');
+INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (2,'AtenciÃ³n Usuarios','nibh vulputate');
 INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (3,'Pagos','commodo auctor velit. Aliquam nisl. Nulla');
 INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (4,'Logistica','lacus pede sagittis augue, eu tempor');
 INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (5,'Aseo','sapien. Cras dolor dolor, tempus non,');
-INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (6,'Restauración','lacus. Mauris non dui nec urna suscipit nonummy.');
+INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (6,'RestauraciÃ³n','lacus. Mauris non dui nec urna suscipit nonummy.');
 
 --- Poblar Empleados 
 insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (1, 'Darbee', 'Stables', 3914989, 'administrador', 6);
@@ -318,9 +318,9 @@ INSERT INTO Salas (ID,areaDisponible,altura) VALUES (98,587,1);
 INSERT INTO Salas (ID,areaDisponible,altura) VALUES (99,957,4);
 
 ------- Poblar Planes --------
-insert into Planes (nombre,descripcion, valor, prioridad) values ('General','Ingreso ilimitado al museo y sus exposiciones (exceptuando las especiales)',80000,1);
-insert into Planes (nombre,descripcion, valor, prioridad) values ('Plata','Ingreso ilimitado. Descuento en exposiciones expeciales y la tienda del museo',100000,2);
-insert into Planes (nombre,descripcion, valor, prioridad) values ('Oro','Ingreso total al museo.Descuentos en la tienda y restaurante del museo. Ivitaciones a exposiciones especiales antes de que salgan',120000,3);
+insert into Planes (nombre,descripcion, valor, prioridad) values ('General','Ingreso ilimitado al museo y sus exposiciones (exceptuando las especiales)',80000);
+insert into Planes (nombre,descripcion, valor, prioridad) values ('Plata','Ingreso ilimitado. Descuento en exposiciones especiales y la tienda del museo',100000);
+insert into Planes (nombre,descripcion, valor, prioridad) values ('Oro','Ingreso total al museo. Descuentos en la tienda y restaurante del museo. Ivitaciones a exposiciones especiales antes de que salgan',120000);
 
 
 
