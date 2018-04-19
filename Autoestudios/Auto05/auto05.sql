@@ -353,7 +353,7 @@ SELECT EXTRACT(detail,'/detalles/tallas/*') FROM productModel;
 
 --DTD
 /*<?xml varsion="1.0"?>
-<!DOCTYPE detalle[
+<!DOCTYPE detalles[
 	<!ELEMENT edades (#PCDATA)>
 	<!ELEMENT materiales (material)>
 	<!ELEMENT tallas (talla+)>
