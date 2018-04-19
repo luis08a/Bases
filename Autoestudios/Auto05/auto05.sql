@@ -18,15 +18,15 @@ INSERT INTO ProductModel (productModelID, name, detail) values (1, 'Classic Vest
         <material>algodon</material>
 	</materiales>
 	<tallas>
-        <talla nomenclatura="Hombre" tamaño="S"></talla>
-        <talla nomenclatura="Mujer" tamaño="S"></talla>
-        <talla nomenclatura="Niño" tamaño="S"></talla>
-        <talla nomenclatura="Hombre" tamaño="M"></talla>
-        <talla nomenclatura="Mujer" tamaño="M"></talla>
-        <talla nomenclatura="Niño" tamaño="M"></talla>
-        <talla nomenclatura="Hombre" tamaño="L"></talla>
-        <talla nomenclatura="Mujer" tamaño="L"></talla>
-        <talla nomenclatura="Niño" tamaño="L"></talla>
+        <talla nomenclatura="Hombre" tamano="S"></talla>
+        <talla nomenclatura="Mujer" tamano="S"></talla>
+        <talla nomenclatura="Nino" tamano="S"></talla>
+        <talla nomenclatura="Hombre" tamano="M"></talla>
+        <talla nomenclatura="Mujer" tamano="M"></talla>
+        <talla nomenclatura="Nino" tamano="M"></talla>
+        <talla nomenclatura="Hombre" tamano="L"></talla>
+        <talla nomenclatura="Mujer" tamano="L"></talla>
+        <talla nomenclatura="Nino" tamano="L"></talla>
 	</tallas>
 	<garantia meses= "5"></garantia>
 	<peso gramos="170"></peso>
@@ -49,11 +49,11 @@ INSERT INTO ProductModel (productModelID, name, detail) values (2, 'Cycling Cap'
         <material>algodon</material>
 	</materiales>
 	<tallas>
-        <talla nomenclatura="Hombre" tamaño="S"></talla>
-        <talla nomenclatura="Mujer" tamaño="S"></talla>
-        <talla nomenclatura="Hombre" tamaño="M"></talla>
-        <talla nomenclatura="Mujer" tamaño="M"></talla>
-        <talla nomenclatura="Hombre" tamaño="L"></talla>
+        <talla nomenclatura="Hombre" tamano="S"></talla>
+        <talla nomenclatura="Mujer" tamano="S"></talla>
+        <talla nomenclatura="Hombre" tamano="M"></talla>
+        <talla nomenclatura="Mujer" tamano="M"></talla>
+        <talla nomenclatura="Hombre" tamano="L"></talla>
 	</tallas>
 	<garantia meses= "2"></garantia>
 	<peso gramos="97"></peso>
@@ -77,9 +77,9 @@ INSERT INTO ProductModel (productModelID, name, detail) values (3, 'Full-Finger 
         <material>algodon</material>
 	</materiales>
 	<tallas>
-        <talla nomenclatura="Hombre" tamaño="S"></talla>
-        <talla nomenclatura="Hombre" tamaño="M"></talla>
-        <talla nomenclatura="Hombre" tamaño="L"></talla>
+        <talla nomenclatura="Hombre" tamano="S"></talla>
+        <talla nomenclatura="Hombre" tamano="M"></talla>
+        <talla nomenclatura="Hombre" tamano="L"></talla>
 	</tallas>
 	<garantia meses= "4"></garantia>
 	<peso gramos= "276"></peso>
@@ -103,11 +103,11 @@ INSERT INTO ProductModel (productModelID, name, detail) values (4, 'Half-Finger 
         <material>algodon</material>
 	</materiales>
 	<tallas>
-        <talla nomenclatura="Hombre" tamaño="S"></talla>
-        <talla nomenclatura="Hombre" tamaño="M"></talla>
-        <talla nomenclatura="Hombre" tamaño="L"></talla>
-        <talla nomenclatura="Mujer" tamaño="M"></talla>
-        <talla nomenclatura="Mujer" tamaño="S"></talla>
+        <talla nomenclatura="Hombre" tamano="S"></talla>
+        <talla nomenclatura="Hombre" tamano="M"></talla>
+        <talla nomenclatura="Hombre" tamano="L"></talla>
+        <talla nomenclatura="Mujer" tamano="M"></talla>
+        <talla nomenclatura="Mujer" tamano="S"></talla>
 	</tallas>
 	<garantia meses= "1"></garantia>
 	<peso gramos= "26"></peso>
@@ -130,13 +130,13 @@ INSERT INTO ProductModel (productModelID, name, detail) values (5, 'HL Mountain 
         <material>kriptonita</material>
     </materiales>
 	<tallas>
-        <talla nomenclatura="Hombre" tamaño="S"></talla>
-        <talla nomenclatura="Hombre" tamaño="M"></talla>
-        <talla nomenclatura="Hombre" tamaño="L"></talla>
-        <talla nomenclatura="Mujer" tamaño="M"></talla>
-        <talla nomenclatura="Mujer" tamaño="S"></talla>
-        <talla nomenclatura="Mujer" tamaño="L"></talla>
-        <talla nomenclatura="Niño" tamaño="S"></talla>
+        <talla nomenclatura="Hombre" tamano="S"></talla>
+        <talla nomenclatura="Hombre" tamano="M"></talla>
+        <talla nomenclatura="Hombre" tamano="L"></talla>
+        <talla nomenclatura="Mujer" tamano="M"></talla>
+        <talla nomenclatura="Mujer" tamano="S"></talla>
+        <talla nomenclatura="Mujer" tamano="L"></talla>
+        <talla nomenclatura="Nino" tamano="S"></talla>
 	</tallas>
 	<garantia meses= "300"></garantia>
 	<peso gramos= "25879"></peso>
@@ -158,15 +158,15 @@ INSERT INTO ProductModel (productModelID, name, detail) values (6, 'HL Road Fram
         <material>aluminio</material>
     </materiales>
 	<tallas>
-        <talla nomenclatura="Hombre" tamaño="S"></talla>
-        <talla nomenclatura="Hombre" tamaño="M"></talla>
-        <talla nomenclatura="Hombre" tamaño="L"></talla>
-        <talla nomenclatura="Mujer" tamaño="M"></talla>
-        <talla nomenclatura="Mujer" tamaño="S"></talla>
-        <talla nomenclatura="Mujer" tamaño="L"></talla>
-        <talla nomenclatura="Niño" tamaño="M"></talla>
-        <talla nomenclatura="Niño" tamaño="S"></talla>
-        <talla nomenclatura="Niño" tamaño="L"></talla>
+        <talla nomenclatura="Hombre" tamano="S"></talla>
+        <talla nomenclatura="Hombre" tamano="M"></talla>
+        <talla nomenclatura="Hombre" tamano="L"></talla>
+        <talla nomenclatura="Mujer" tamano="M"></talla>
+        <talla nomenclatura="Mujer" tamano="S"></talla>
+        <talla nomenclatura="Mujer" tamano="L"></talla>
+        <talla nomenclatura="Nino" tamano="M"></talla>
+        <talla nomenclatura="Nino" tamano="S"></talla>
+        <talla nomenclatura="Nino" tamano="L"></talla>
 	</tallas>
 	<garantia meses= "6"></garantia>
 	<peso gramos= "5430"></peso>
@@ -188,15 +188,15 @@ INSERT INTO ProductModel (productModelID, name, detail) values (7, 'HL Touring F
         <material>uranio</material>
     </materiales>
 	<tallas>
-        <talla nomenclatura="Hombre" tamaño="S"></talla>
-        <talla nomenclatura="Hombre" tamaño="M"></talla>
-        <talla nomenclatura="Hombre" tamaño="L"></talla>
-        <talla nomenclatura="Mujer" tamaño="M"></talla>
-        <talla nomenclatura="Mujer" tamaño="S"></talla>
-        <talla nomenclatura="Mujer" tamaño="L"></talla>
-        <talla nomenclatura="Niño" tamaño="M"></talla>
-        <talla nomenclatura="Niño" tamaño="S"></talla>
-        <talla nomenclatura="Niño" tamaño="L"></talla>
+        <talla nomenclatura="Hombre" tamano="S"></talla>
+        <talla nomenclatura="Hombre" tamano="M"></talla>
+        <talla nomenclatura="Hombre" tamano="L"></talla>
+        <talla nomenclatura="Mujer" tamano="M"></talla>
+        <talla nomenclatura="Mujer" tamano="S"></talla>
+        <talla nomenclatura="Mujer" tamano="L"></talla>
+        <talla nomenclatura="Nino" tamano="M"></talla>
+        <talla nomenclatura="Nino" tamano="S"></talla>
+        <talla nomenclatura="Nino" tamano="L"></talla>
 	</tallas>
 	<garantia meses= "3"></garantia>
 	<origen>
@@ -215,9 +215,9 @@ INSERT INTO ProductModel (productModelID, name, detail) values (8, 'LL Mountain 
         <material>adamantium</material>
     </materiales>
 	<tallas>
-        <talla nomenclatura="Niño" tamaño="M"></talla>
-        <talla nomenclatura="Niño" tamaño="S"></talla>
-        <talla nomenclatura="Niño" tamaño="L"></talla>
+        <talla nomenclatura="Nino" tamano="M"></talla>
+        <talla nomenclatura="Nino" tamano="S"></talla>
+        <talla nomenclatura="Nino" tamano="L"></talla>
 	</tallas>
 	<garantia meses= "12"></garantia>
     <peso gramos= "2391"></peso>
@@ -237,9 +237,9 @@ INSERT INTO ProductModel (productModelID, name, detail) values (9, 'LL Road Fram
         <material>acero</material>
     </materiales>
 	<tallas>
-        <talla nomenclatura="Mujer" tamaño="M"></talla>
-        <talla nomenclatura="Mujer" tamaño="S"></talla>
-        <talla nomenclatura="Mujer" tamaño="L"></talla>
+        <talla nomenclatura="Mujer" tamano="M"></talla>
+        <talla nomenclatura="Mujer" tamano="S"></talla>
+        <talla nomenclatura="Mujer" tamano="L"></talla>
 	</tallas>
 	<garantia meses= "9"></garantia>
     <peso gramos= "3128"></peso>
@@ -259,15 +259,15 @@ INSERT INTO ProductModel (productModelID, name, detail) values (10, 'LL Touring 
         <material>acero</material>
     </materiales>
 	<tallas>
-        <talla nomenclatura="Hombre" tamaño="S"></talla>
-        <talla nomenclatura="Hombre" tamaño="M"></talla>
-        <talla nomenclatura="Hombre" tamaño="L"></talla>
-        <talla nomenclatura="Mujer" tamaño="M"></talla>
-        <talla nomenclatura="Mujer" tamaño="S"></talla>
-        <talla nomenclatura="Mujer" tamaño="L"></talla>
-        <talla nomenclatura="Niño" tamaño="M"></talla>
-        <talla nomenclatura="Niño" tamaño="S"></talla>
-        <talla nomenclatura="Niño" tamaño="L"></talla>
+        <talla nomenclatura="Hombre" tamano="S"></talla>
+        <talla nomenclatura="Hombre" tamano="M"></talla>
+        <talla nomenclatura="Hombre" tamano="L"></talla>
+        <talla nomenclatura="Mujer" tamano="M"></talla>
+        <talla nomenclatura="Mujer" tamano="S"></talla>
+        <talla nomenclatura="Mujer" tamano="L"></talla>
+        <talla nomenclatura="Nino" tamano="M"></talla>
+        <talla nomenclatura="Nino" tamano="S"></talla>
+        <talla nomenclatura="Nino" tamano="L"></talla>
 	</tallas>
 	<garantia meses= "6"></garantia>
     <peso gramos= "1823"></peso>
@@ -289,15 +289,15 @@ INSERT INTO ProductModel (productModelID, name, detail) values (11, 'Long-Sleeve
         <material>lana</material>
     </materiales>
 	<tallas>
-        <talla nomenclatura="Hombre" tamaño="S"></talla>
-        <talla nomenclatura="Hombre" tamaño="M"></talla>
-        <talla nomenclatura="Hombre" tamaño="L"></talla>
-        <talla nomenclatura="Mujer" tamaño="M"></talla>
-        <talla nomenclatura="Mujer" tamaño="S"></talla>
-        <talla nomenclatura="Mujer" tamaño="L"></talla>
-        <talla nomenclatura="Niño" tamaño="M"></talla>
-        <talla nomenclatura="Niño" tamaño="S"></talla>
-        <talla nomenclatura="Niño" tamaño="L"></talla>
+        <talla nomenclatura="Hombre" tamano="S"></talla>
+        <talla nomenclatura="Hombre" tamano="M"></talla>
+        <talla nomenclatura="Hombre" tamano="L"></talla>
+        <talla nomenclatura="Mujer" tamano="M"></talla>
+        <talla nomenclatura="Mujer" tamano="S"></talla>
+        <talla nomenclatura="Mujer" tamano="L"></talla>
+        <talla nomenclatura="Nino" tamano="M"></talla>
+        <talla nomenclatura="Nino" tamano="S"></talla>
+        <talla nomenclatura="Nino" tamano="L"></talla>
 	</tallas>
 	<garantia meses= "2"></garantia>
     <peso gramos= "18"></peso>
@@ -322,43 +322,46 @@ INSERT INTO ProductModel (productModelID, name, detail) values (12, 'Touring Fro
         <material>adamantium</material>
     </materiales>
 	<tallas>
-        <talla nomenclatura="Hombre" tamaño="S"></talla>
-        <talla nomenclatura="Hombre" tamaño="M"></talla>
-        <talla nomenclatura="Hombre" tamaño="L"></talla>
-        <talla nomenclatura="Mujer" tamaño="M"></talla>
-        <talla nomenclatura="Mujer" tamaño="S"></talla>
-        <talla nomenclatura="Mujer" tamaño="L"></talla>
-        <talla nomenclatura="Niño" tamaño="M"></talla>
-        <talla nomenclatura="Niño" tamaño="S"></talla>
-        <talla nomenclatura="Niño" tamaño="L"></talla>
+        <talla nomenclatura="Hombre" tamano="S"></talla>
+        <talla nomenclatura="Hombre" tamano="M"></talla>
+        <talla nomenclatura="Hombre" tamano="L"></talla>
+        <talla nomenclatura="Mujer" tamano="M"></talla>
+        <talla nomenclatura="Mujer" tamano="S"></talla>
+        <talla nomenclatura="Mujer" tamano="L"></talla>
+        <talla nomenclatura="Nino" tamano="M"></talla>
+        <talla nomenclatura="Nino" tamano="S"></talla>
+        <talla nomenclatura="Nino" tamano="L"></talla>
 	</tallas>
 	<garantia meses= "123"></garantia>
     <peso gramos= "4983"></peso>
 	<origen>
         <pais nombre= "Israel" numeroDeFabricantes= "320"></pais>
-        <pais nombre= "Emiratos Árabes" numeroDeFabricantes= "221"></pais>
+        <pais nombre= "Emiratos Arabes" numeroDeFabricantes= "221"></pais>
         <pais nombre= "Colombia" numeroDeFabricantes= "213"></pais>
         <pais nombre= "Venezuela" numeroDeFabricantes= "999"></pais>
     </origen>
 </detalles>'
 );
 
+--Consultas
+SELECT extract(detail,'/detalles/materiales/material') FROM  PRODUCTMODEL;
+SELECT * FROM PRODUCTMODEL 
+    WHERE extract(detail,'/detalles/materiales/text()')='kriptonita';
 
 --Eliminazao de la tabla
 DROP TABLE ProductModel;
 
---Consultas
-SELECT EXTRACT(detail,'/detalles/tallas/*') FROM productModel;
-
 
 --DTD
-/*<?xml varsion="1.0"?>
+/*<?xml version="1.0"?>
 <!DOCTYPE detalles[
+    <!ELEMENT detalles (edades,materiales,tallas,garantia,peso,origen)>
 	<!ELEMENT edades (#PCDATA)>
-	<!ELEMENT materiales (material)>
-	<!ELEMENT tallas (talla+)>
+	<!ELEMENT materiales (material)*>
+    <!ELEMENT material (#PCDATA)>
+	<!ELEMENT tallas (talla )*>
 	<!ELEMENT talla (#PCDATA)>
-	<!ELEMENT garantia (#PCDATA)+>
+	<!ELEMENT garantia (#PCDATA)*>
 	<!ELEMENT peso (#PCDATA)>
 	<!ELEMENT origen (pais+)>
 	<!ELEMENT pais (#PCDATA)>
@@ -366,8 +369,8 @@ SELECT EXTRACT(detail,'/detalles/tallas/*') FROM productModel;
 	<!ATTLIST edades Min CDATA #REQUIRED>
 	<!ATTLIST edades Max CDATA #REQUIRED>
 
-	<!ATTLIST talla nomenclatura ("Hombre"|"Mujer"|"NiÃ±o") #REQUIRED>
-	<!ATTLIST talla tamaÃ±o ("S"|"M"|"L") #REQUIRED>
+	<!ATTLIST talla nomenclatura (Hombre|Mujer|Nino) #REQUIRED>
+	<!ATTLIST talla tamano (S|M|L) #REQUIRED>
 	
 	<!ATTLIST garantia meses CDATA #REQUIRED>
 	
