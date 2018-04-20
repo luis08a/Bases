@@ -343,10 +343,30 @@ INSERT INTO ProductModel (productModelID, name, detail) values (12, 'Touring Fro
 </detalles>'
 );
 
---Consultas
-SELECT extract(detail,'/detalles/materiales/material') FROM  PRODUCTMODEL;
-SELECT * FROM PRODUCTMODEL 
-    WHERE extract(detail,'/detalles/materiales/text()')='kriptonita';
+/*Consultas*/
+--Primera
+SELECT name FROM ProductModel WHERE EXTRACT(detail,'detalles/materiales/material').getStringVal() LIKE '%oro%';
+--Segunda
+SELECT name, extractvalue(detail,'detalles/garantia/@meses') FROM PRODUCTMODEL where extractvalue(detail,'detalles/garantia/@meses')> (select avg(extractvalue(detail,'detalles/garantia/@meses')) from ProductModel);
+--Tercera
+SELECT name,null from productModel where extract(detail,'detalles/tallas/talla[@nomenclatura="Hombre"]') is not null and extract(detail,'detalles/tallas/talla[@nomenclatura="Mujer"]') is not null;  
+--Cuarta
+select name from productModel where extractvalue(detail,'detalles/peso/@gramos') is null;
+--Quinta
+SELECT productModelID, name, null FROM ProductModel WHERE EXTRACT(detail,'detalles/origen/pais[@nombre="Mexico"]') is not null;
+
+
+
+
+/*Propuestas*/
+--Primera
+select name from productModel where extractvalue(detail,'detalles/garantia/@meses')>2;
+--Segunda
+select name from productModel where extractvalue(detail,'detalles/peso/@gramos')>1000;
+--Tercera
+select name from productModel where extractvalue(detail,'detalles/edades/@Min')>=18;
+
+
 
 --Eliminazao de la tabla
 DROP TABLE ProductModel;
