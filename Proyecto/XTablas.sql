@@ -18,9 +18,3 @@ drop table colecciones;
 drop table salas;
 drop table patrocinadores;
 drop table eventos;
-
-
-
-
-
-
