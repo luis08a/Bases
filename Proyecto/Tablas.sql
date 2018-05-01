@@ -64,7 +64,7 @@ create table patrocina (tipoDeDocumentoPatrocinador varchar(2),
                         monto number(9) not null);
 
 create table patrocinadores (   tipoDeDocumento varchar(3),
-                                numeroDeDocumento varchar(20),
+                                numeroDeDocumento varchar(30),
                                 nombre varchar(30) not null,
                                 fechaDeVinculacion date not null);
 

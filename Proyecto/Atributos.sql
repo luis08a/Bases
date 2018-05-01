@@ -51,7 +51,7 @@ alter table pagos add constraint ck_pagosid check(numeroDeSerie>=1 and numeroDeS
 alter table pagos add constraint ck_valorpag check(valor>0);
 
 --Planes
-alter table planes add constraint ck_valorplan check(valor>0);
+alter table planes add constraint ck_valorplan check(valor>=5000);
 
 --Cliente
 
