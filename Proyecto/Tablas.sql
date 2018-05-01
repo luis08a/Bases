@@ -6,8 +6,8 @@ create table departamentos (ID number(4),
 create table empleados (ID number(5),
                         nombres varchar(30) not null,
                         apellidos varchar(30) not null, 
-                        telefono number(10),
-                        cargo varchar(30) not null,
+                        telefono varchar(15),
+                        cargo varchar(50) not null,
                         departamento number(4) not null);
 
 create table empleadosTrabajanEnSalas ( empleado number(5),
