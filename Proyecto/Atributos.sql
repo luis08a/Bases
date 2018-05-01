@@ -8,7 +8,7 @@ alter table Empleados add constraint ck_empid check(ID>=1 and ID<=99999);
 
 --EmpleadosTrabajanEnSalas
 
---Sala
+--Salas
 alter table Salas add constraint ck_salid check(ID>=1 and ID<=9999);
 alter table Salas add constraint ck_ares check(areaDisponible > 0);
 alter table Salas add constraint ck_alts check(altura>=5 and altura<=10);
@@ -29,6 +29,9 @@ alter table ObrasDeArte add constraint ck_obraid check(ID>=1 and ID<=99999);
 
 --Autores
 
+--Propietarios
+alter table Propietarios add constraint ck_correopropi check(correo like('%@%.%') and correo not like('%@@%.%'));
+
 --Eventos
 alter table Eventos add constraint ck_evenid check(ID>=1 and ID<=99999);
 
@@ -36,9 +39,10 @@ alter table Eventos add constraint ck_evenid check(ID>=1 and ID<=99999);
 alter table Patrocina add constraint ck_montpatro check(monto>0);
 
 --Patrocinadores
+alter table Patrocinadores add constraint ck_tipoDocPatron check(tipoDeDocumento in ('CC','CE','PP'));
 
 --Boletas
-alter table Boletas add constraint ck_evenid check(ID>=1 and ID<=99999);
+alter table Boletas add constraint ck_eventobolid check(ID>=1 and ID<=99999);
 alter table Boletas add constraint ck_precioBol check(precio>0);
 
 --permiteAsistirA
@@ -54,4 +58,5 @@ alter table pagos add constraint ck_valorpag check(valor>0);
 alter table planes add constraint ck_valorplan check(valor>0);
 
 --Cliente
-
+alter table Clientes add constraint ck_correocliente check(correo like('%@%.%') and correo not like('%@@%.%'));
+alter table Clientes add constraint ck_tipoDocClien check(tipoDeDocumento in ('CC','CE','PP'));
