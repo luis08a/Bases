@@ -1,10 +1,10 @@
 /*Eliminación de tablas*/
-drop table empleadostrabajanensalas;
-drop table patrocinadorpatrocinaeventos;
-drop table suscripcionpermiteasistira;
-drop table obrasdearte;
-drop table objetoshistoricos;
-drop table objetosdeexposicion;
+drop table empleadosTrabajanEnSalas;
+drop table patrocina;
+drop table permiteAsistirA;
+drop table obrasDeArte;
+drop table objetosHistoricos;
+drop table objetosDeExposicion;
 drop table autores;
 drop table propietarios;
 drop table empleados; 
@@ -17,7 +17,6 @@ drop table boletas;
 drop table colecciones;
 drop table salas;
 drop table patrocinadores;
-drop table categorias;
 drop table eventos;
 
 
