@@ -38,7 +38,7 @@ alter table Patrocina add constraint ck_montpatro check(monto>0);
 --Patrocinadores
 
 --Boletas
-alter table Boletas add constraint ck_evenid check(ID>=1 and ID<=99999);
+alter table Boletas add constraint ck_boletaid check(ID>=1 and ID<=99999);
 alter table Boletas add constraint ck_precioBol check(precio>0);
 
 --permiteAsistirA
