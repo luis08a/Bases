@@ -53,7 +53,7 @@ create table autores (  nombre varchar(40),
                         fechaDeMuerte date);
 
 create table eventos (  ID number(5),
-                        nombre varchar(30) not null,
+                        nombre varchar(50) not null,
                         fechaInicio date not null,
                         fechaFin date not null,
                         detalles XMLType);
