@@ -1,4 +1,4 @@
-/*Automatizacion*/
+/*AUTOMATIZACION*/
 --Departamentos
 create or replace trigger autoDep
 before Insert on Departamentos
@@ -186,7 +186,12 @@ declare
     xConteo number;
     xMaximo number;
     xFecha date;
+    xCosto number;
 begin
+    select planes.valor into xCosto from Suscripciones join Planes on (Suscripciones.plan = Planes.nombre and Suscripciones.carnet = :new.carnetSuscripcion);
+    if(:new.valor <> xCosto) then 
+        RAISE_APPLICATION_ERROR(-20001,'No se puede generar un pago, por un valor distinto al del plan.');
+    end if;
     select current_date into xFecha from dual;
     :new.fechaDePago := xFecha;
     select count(*) into xConteo from Pagos;
@@ -212,7 +217,7 @@ begin
 end;
 /
 
-/*Modificacion*/
+/*MODIFICACION*/
 --Clientes
 create or replace trigger modClientes
 before update of fechaDeVinculacion on Clientes
@@ -293,3 +298,72 @@ end;
 /
 
 --Planes
+create or replace trigger modPlanes
+before update on Planes
+for each row
+begin
+    if(:new.valor<5000) then
+        RAISE_APPLICATION_ERROR(-20001,'No pueden existir planes que valgan menos de $5000.');
+    end if;
+end;
+/
+
+/*ELIMINACION.*/
+--Clientes
+create or replace trigger eliClientes
+before delete on Clientes
+for each row
+declare
+    xEstadosInactivos number;
+begin
+    select count(*) into xEstadosInactivos from Suscripciones where :old.tipoDeDocumento = Suscripciones.clienteTipoDeDocumento and :old.numeroDeDocumento = Suscripciones.clienteNumeroDocumento and Suscriptores.estadoDeCuenta=0;
+    if(xEstadosInactivos>=1) then 
+        RAISE_APPLICATION_ERROR(-20001,'No pueden existir planes que valgan menos de $5000.');
+    end if;
+end;
+/
+
+--Patrocinadores
+--No sé como comparar dos fechas.
+
+--Departamentos
+/*create or replace trigger eliDepartamentos
+before delete on Departamentos
+for each row
+declare
+    xEmpleados table;
+    xQ number;
+begin
+    select count(*) into xQ from Departamentos where Departamentos.nombre = 'Temporal';
+    if(xQ>=1) then 
+        insert into Departamentos values('Temporal','Esto ha sido creado en pro de almacenar a los empleados, sin temor a incumplir alguna regla de negocio.');
+    end if;
+end;
+/*/
+
+--Autores 
+create or replace trigger eliAutores
+before delete on Autores 
+for each row
+begin
+    RAISE_APPLICATION_ERROR(-20001,'No se permite la eliminación de los autores.');
+end;
+/
+
+--Boletas
+create or replace trigger eliBoletas
+before delete on Boletas 
+for each row
+begin
+    RAISE_APPLICATION_ERROR(-20001,'No se permite la eliminación de las boletas.');
+end;
+/
+
+--Pagos
+create or replace trigger eliPagos
+before delete on Pagos 
+for each row
+begin
+    RAISE_APPLICATION_ERROR(-20001,'No se permite la eliminación de pagos.');
+end;
+/
