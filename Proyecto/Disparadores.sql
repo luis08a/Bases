@@ -252,12 +252,22 @@ end;
 --Salas
 create or replace trigger modSalas
 before update on Salas
+
 for each row
+declare 
+    aAltura number;
+    bAltura number;
+    aArea number;
+    bArea number;
 begin
-    if(:old.altura <> :new.area) then 
+    select :old.areaDisponible into aArea from dual;
+    select :old.altura into aAltura from dual;
+    select :new.areaDisponible into bArea from dual;
+    select :new.altura into bAltura from dual;
+    if(aAltura <> bAltura) then 
         RAISE_APPLICATION_ERROR(-20001,'No se puede moficicar altura de una sala.');
     end if;
-    if(:old.area > :new.area) then
+    if(aArea > bArea) then
         RAISE_APPLICATION_ERROR(-20001,'El area actualizada no puede ser menor a la original.');
     end if;
 end;
@@ -316,7 +326,7 @@ for each row
 declare
     xEstadosInactivos number;
 begin
-    select count(*) into xEstadosInactivos from Suscripciones where :old.tipoDeDocumento = Suscripciones.clienteTipoDeDocumento and :old.numeroDeDocumento = Suscripciones.clienteNumeroDocumento and Suscriptores.estadoDeCuenta=0;
+    select count(*) into xEstadosInactivos from Suscripciones where :old.tipoDeDocumento = Suscripciones.clienteTipoDeDocumento and :old.numeroDeDocumento = Suscripciones.clienteNumeroDocumento and Suscripciones.estadoDeCuenta=0;
     if(xEstadosInactivos>=1) then 
         RAISE_APPLICATION_ERROR(-20001,'No pueden existir planes que valgan menos de $5000.');
     end if;
