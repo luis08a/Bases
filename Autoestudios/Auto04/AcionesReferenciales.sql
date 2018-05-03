@@ -1,0 +1,1 @@
+ALTER TABLE ProductCategory ADD CONSTRAINT FK_PARENTCID FOREIGN KEY (ParentProductCategoryID) REFERENCES ProductCategory(ProductCategoryID) ON DELETE SET NULL ;

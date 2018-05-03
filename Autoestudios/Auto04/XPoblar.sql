@@ -1,0 +1,10 @@
+DELETE FROM SalesOrderDetail;
+DELETE FROM SalesOrderHeader;
+DELETE FROM Address;
+DELETE FROM CustomerAddress;
+DELETE FROM Customer;
+DELETE FROM Product;
+DELETE FROM ProductModel;
+DELETE FROM ProductCategory;
+DELETE FROM ProductModelProductDescription;
+DELETE FROM ProductDescription;
