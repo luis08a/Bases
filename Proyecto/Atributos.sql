@@ -28,6 +28,7 @@ alter table ObrasDeArte add constraint ck_obraid check(ID>=1 and ID<=99999);
 
 --Autores
 
+
 --Propietarios
 alter table Propietarios add constraint ck_correo check(correo like '%@%.%' and correo not like '%@%@%');
 
@@ -57,4 +58,4 @@ alter table pagos add constraint ck_valorpag check(valor>0);
 alter table planes add constraint ck_valorplan check(valor>=5000);
 
 --Cliente
-alter table Clientes add constraint ck_correo check(correo like '%@%.%' and correo not like '%@%@%');
+alter table Clientes add constraint ck_clientecorreo check(correo like '%@%.%' and correo not like '%@%@%');
