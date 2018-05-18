@@ -334,20 +334,27 @@ end;
 /
 
 --Patrocinadores
---No sé como comparar dos fechas.
+/*create or replace trigger eliPatrocinador
+before Delete on Patrocinadores
+for each row
+declare
+    FechaActual date;
+    QEventos number;
+begin 
+    select CURRENT_DATE into FechaActual from Patrocinadores;
+    select count(*) into QEventos from Patrocinaciones join Eventos having 
+*/
+
 
 --Departamentos
 /*create or replace trigger eliDepartamentos
 before delete on Departamentos
 for each row
 declare
-    xEmpleados table;
-    xQ number;
+    xTemporalID number;
 begin
-    select count(*) into xQ from Departamentos where Departamentos.nombre = 'Temporal';
-    if(xQ>=1) then 
-        insert into Departamentos values('Temporal','Esto ha sido creado en pro de almacenar a los empleados, sin temor a incumplir alguna regla de negocio.');
-    end if;
+    select ID into xTemporalID from Departamentos where nombre='Temporal';
+    update Empleados set Empleados.Departamento = xTemporalID where Empleados.departamento=:old.id;
 end;
 /*/
 

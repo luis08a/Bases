@@ -11,6 +11,7 @@ INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (3,'Pagos','com
 INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (4,'Logistica','lacus pede sagittis augue, eu tempor');
 INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (5,'Aseo','sapien. Cras dolor dolor, tempus non,');
 INSERT INTO  Departamentos  ( ID , nombre , descripcion ) VALUES (6,'Restauración','lacus. Mauris non dui nec urna suscipit nonummy.');
+INSERT INTO Departamentos(Nombre, descripcion) values ('Temporal', 'Temporal');
 
 --- Poblar Empleados 
 insert into Empleados (ID, nombres, apellidos, telefono, cargo, departamento) values (1, 'Darbee', 'Stables', 3914989, 'administrador', 6);
