@@ -19,7 +19,7 @@ create table salas ( ID number(4),
 
 create table colecciones (  ID number(4), 
                             nombre varchar(35) not null,
-                            descripcion varchar(180) not null,
+                            descripcion varchar(300) not null,
                             sala number(4),
                             evento number(5));
 
@@ -77,7 +77,7 @@ create table permiteAsistirA (  carnet varchar(20),
                                 evento number(5),
                                 fechaDeAsistencia date not null);
 
-create table suscripciones (carnet varchar(20),
+create table suscripciones (carnet number(20),
                             clienteNumeroDocumento varchar(20) not null,
                             clienteTipoDeDocumento varchar(2) not null,
                             plan varchar(20) not null,

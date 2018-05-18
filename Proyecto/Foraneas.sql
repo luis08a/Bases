@@ -29,7 +29,7 @@ alter table permiteAsistirA add constraint fk_carnetAsistencia foreign key(carne
 
 alter table permiteAsistirA add constraint fk_eventoAsistencia foreign key(evento) references eventos(ID);
 
-alter table suscripciones add constraint fk_clienteTDoc foreign key(clienteNumeroDocumento, clienteTipoDeDocumento) references clientes(tipoDeDocumento, numeroDeDocumento);
+alter table suscripciones add constraint fk_clienteTDoc foreign key(clienteTipoDeDocumento, clienteNumeroDocumento) references clientes(tipoDeDocumento, numeroDeDocumento);
 
 alter table suscripciones add constraint fk_suscripcionAPlan foreign key(plan) references planes(nombre);
 

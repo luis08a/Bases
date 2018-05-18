@@ -175,6 +175,7 @@ begin
         :new.carnet := xMaximo+1;
     ELSE  :new.carnet := 1;
     END IF;
+    :new.estadoDeCuenta := 1;
 end;
 /
 
